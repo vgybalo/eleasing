@@ -589,6 +589,7 @@ flex-direction: column;
     /* background:  url('images/3-trans.png') no-repeat  100% 65%, #ffffff url('images/3-trans black.png') no-repeat  55% 100%; */
 }
 
+
 .header-wrapper-upper-rightblock {
 flex-direction: column-reverse;
 align-items: flex-end;
@@ -635,6 +636,12 @@ font-size: 16px;
 .main-screen-title-lowerpart-img {
     display: none;
 }
+.main-screen-title-lowerpart-text {
+    font-weight: 600;
+}
+
+
+
 
 .about-service-header {
     font-size: 24px;
