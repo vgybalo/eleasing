@@ -150,7 +150,7 @@ header {
         flex-direction: column;
         align-items: center;
         font-size: 22px;
-        font-family: Arial, sans-serif;
+        font-family: 'Geometria', Arial, sans-serif;
         color: rgba(60, 33, 86, 1);
         font-weight: 200;
     }
