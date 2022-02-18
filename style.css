@@ -15,10 +15,7 @@ a {
 }
 
 /*header*/
-header {
-    
-}
-    .header-wrapper-upper {
+.header-wrapper-upper {
     height: 90px;
     background-color: rgba(255, 255, 255, 1);
     padding: 0 1.3%;
@@ -31,24 +28,21 @@ header {
             justify-content: space-between;
         }
             .header-wrapper-upper-sighin-btn {
-                display: block;
+                display: flex;
                 width: 200px;
-                height: 40px;
-                padding-top: 10px;
-                text-align: center;
+                line-height: 40px;
+                justify-content: center;
+                align-items: center;
                 margin: 20px 40px 20px 0;
                 border-radius: 20px;
                 background-color: rgba(23, 162, 99, 1);
                 font-size: 18px;
                 font-family: 'Geometria', Arial, sans-serif;
                 font-weight: 800;
-                color: rgba(60, 33, 86, 1);
                 cursor: pointer;
+                color: rgba(255, 255, 255, 1);
             }   
-                .main-screen-title-lowerpart-btn a {
-                color: rgba(0, 0, 0, 1);
                 
-            }  
             .header-upper-language {
                 display: flex;
                 justify-content: space-between;
@@ -155,22 +149,21 @@ header {
         font-weight: 200;
     }
         .main-screen-title-lowerpart-btn {
-            display: block;
+            display: flex;
             width: 250px;
-            height: 60px;
-            padding-top: 20px;
-            text-align: center;
-            margin: 40px auto;
+            justify-content: center;
+            align-items: center;
+            line-height: 50px;
             border-radius: 30px;
             background-color: rgba(238, 88, 38, 1);
             font-size: 18px;
             font-family: 'Geometria', Arial, sans-serif;
             font-weight: 800;
-            color: rgba(60, 33, 86, 1);
             cursor: pointer;
+            
         }   
             .main-screen-title-lowerpart-btn a {
-            color: rgba(60, 33, 86, 1);
+               color: rgba(255, 255, 255, 1);
             
         }  
         .main-screen-title-lowerpart-img {
@@ -419,6 +412,7 @@ header {
         background: rgba(238, 88, 38, 1) url('images/plus-white.svg') 50% 50% no-repeat;
         cursor: pointer;
         border-radius: 50%;
+        border: 2px solid rgba(238, 88, 38, 1);
         background-color: rgba(238, 88, 38, 1);
         padding: 10px; 
         
@@ -584,12 +578,6 @@ flex-direction: column;
     
 }    
 /*****mobile main screen**/
-.main-screen-title {
-    /* padding-bottom: 15%; */
-    /* background:  url('images/3-trans.png') no-repeat  100% 65%, #ffffff url('images/3-trans black.png') no-repeat  55% 100%; */
-}
-
-
 .header-wrapper-upper-rightblock {
 flex-direction: column-reverse;
 align-items: flex-end;
