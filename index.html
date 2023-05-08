@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
      <link rel="stylesheet" href="css/normalise.css">
     <link rel="stylesheet" href="style.css">
-    
+    <link rel="manifest" href="manifest.json" />
     <!--<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">-->
     <title>E-Leasing</title>
 </head>
@@ -353,5 +353,14 @@
 
 
 <script src="js/main.js"></script>
+<script>
+    // проверяем поддержку сервис-воркеров
+    if ('serviceWorker' in navigator) {
+      // ожидаем полной загрузки страницы
+      window.addEventListener('load', () => {
+        navigator.serviceWorker?.register('./sw.js');
+      });
+    }
+  </script>
 </body>
 </html>
